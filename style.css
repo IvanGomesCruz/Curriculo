@@ -1,0 +1,34 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.conteiner{
+    position: relative;
+    width: 100%;
+    max-width: 70vw;
+    min-height: 90vh;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.conteiner .esquerda{
+    position: relative;
+    background-color:rgb(70, 1, 1);
+    padding: 3em;
+    max-width: 12w;
+    color:white;
+
+}
+.conteiner .direita{
+    position: relative;
+
+    padding: 4em;
+
+}
+.perfil{
+    width:100%;
+}
